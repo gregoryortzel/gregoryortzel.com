@@ -1,6 +1,5 @@
 #main{
     margin: 0px auto;
-    width: 600px;
-    padding: 20px;
+    min-width: 720px;
     background-color: rgb(194, 253, 255);
 }
