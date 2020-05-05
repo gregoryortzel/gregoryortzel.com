@@ -3,3 +3,8 @@
     min-width: 720px;
     background-color: rgb(194, 253, 255);
 }
+
+.nav-image{
+    height: 360px;
+    width: 360px;
+}
