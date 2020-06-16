@@ -16,5 +16,6 @@
 
 .nav-image{
     height: 360px;
+    overflow: hidden;
 }
 
