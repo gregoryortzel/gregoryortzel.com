@@ -3,6 +3,7 @@
     background-color: rgb(194, 253, 255);
     padding: 0px;
     display: flex;
+    flex-direction: row;
 }
 
 #gregory{
