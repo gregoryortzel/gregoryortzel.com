@@ -1,9 +1,8 @@
 #main{
     margin: 40px auto;
+    width: 1024px;
     background-color: rgb(194, 253, 255);
     padding: 0px;
-    display: flex;
-    flex-direction: row;
 }
 
 #gregory{
@@ -18,8 +17,11 @@
 }
 
 .nav-bar{
-    height: 100px;
+    height: 400px;
+    width: 100%;
     background-color: rgb(38, 0, 126);
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-image{
