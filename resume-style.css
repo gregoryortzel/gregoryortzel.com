@@ -1,11 +1,19 @@
 #main{
-    margin: 0px auto;
+    margin: 40px auto;
     background-color: rgb(194, 253, 255);
     padding: 0px;
+    display: flex;
 }
 
 #gregory{
     background-color: #777777;
+    height: 40px;
+}
+
+#home-bar{
+    background-color: #550000;
+    color: #FFF;
+    display: static;
 }
 
 .nav-bar{
