@@ -13,7 +13,7 @@
 #home-bar{
     background-color: #550000;
     color: #FFF;
-    display: static;
+    position: fixed;
 }
 
 .nav-bar{
