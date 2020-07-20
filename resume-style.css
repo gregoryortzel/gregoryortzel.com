@@ -1,5 +1,5 @@
 #main{
-    margin: 40px auto;
+    margin: 0px auto;
     width: 1024px;
     background-color: rgb(194, 253, 255);
     padding: 0px;
@@ -12,6 +12,8 @@
 
 #home-bar{
     background-color: #550000;
+    width: 100%;
+    height: 40px;
     color: #FFF;
     position: fixed;
 }
@@ -20,6 +22,7 @@
     height: 400px;
     width: 100%;
     background-color: rgb(38, 0, 126);
+    margin: 40px auto;
     display: flex;
     flex-direction: row;
 }
