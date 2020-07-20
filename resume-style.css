@@ -28,7 +28,7 @@ body {
 .nav-bar{
     min-height: 320px;
     width: 960px;
-    background-color: rgb(38, 0, 126);
+    background-color: rgb(33, 23, 184);
     margin: 0px auto;
     display: flex;
     flex-direction: row;
