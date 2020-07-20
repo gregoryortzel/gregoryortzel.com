@@ -34,8 +34,14 @@ body {
     flex-direction: row;
 }
 
-.nav-image{
+.nav-image-box{
     height: 320px;
-    width: 320;
+    width:320px;
     overflow: hidden;
 }
+
+.nav-image{
+    height: 100%;
+}
+
+
