@@ -5,9 +5,10 @@ body {
 
 #main{
     margin: 0px auto;
-    width: 940px;
+    width: 960px;
     background-color: rgb(194, 253, 255);
-    padding: 10px;
+    padding: 0px;
+    color: black;
 }
 
 #gregory{
@@ -23,6 +24,23 @@ body {
     color: #FFF;
     position: fixed;
     font-size: 30px;
+}
+
+#summary{
+    display: flex;
+    padding: 10px;
+}
+
+#programmer{
+    background-color: #AAAAAA;
+}
+
+#engineer{
+    background-color: #8899FF;
+}
+
+#video-editor{
+    background-color: #BB88FF;
 }
 
 .nav-bar{
@@ -44,4 +62,8 @@ body {
     height: 100%;
 }
 
+.main-section{
+    padding:20px;
+    display: flex;
+}
 
