@@ -28,7 +28,8 @@ body {
 
 #summary{
     display: flex;
-    padding: 40px 10px 10px 10px;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 #programmer{
