@@ -27,6 +27,7 @@ body {
 }
 
 #summary{
+    margin-top: 40px;
     display: flex;
     padding: 10px;
 }
