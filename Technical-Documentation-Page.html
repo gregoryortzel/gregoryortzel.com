@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <style>
+            body {
+  background-color: rgba(0,0,0,100%);
+  margin: 0px auto;
+  display: block;
+}
+
+#main-doc {
+  background-color: #220A00;
+  margin-left: 300px;
+  padding: 10px;
+  min-height: 2160px;
+  color: #FFCC44;
+}
+
+#navbarheader {
+  font-size: 40px;
+  background-image: linear-gradient(to bottom, #993300 0%, #FFCC00 70%, #FFEEBB 100%);
+  background-color: rgba(255, 230, 210,100%);
+  padding: 10px;
+}
+
+#navbar{
+  width: 300px;
+  position: fixed;
+  background-color: #000000;
+  display: block;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  overflow: scroll;
+}
+
+.nav-option-box {
+  width: 100%;
+  height: 30px;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  padding: 5px;
+  background-image: linear-gradient(to bottom, #000000 0%, rgba(150,20,5,100%) 100%);
+}
+
+.nav-option-box:hover {
+  background-color: rgba(180,150,25,100%);
+  background-image: none;
+}
+
+.nav-link {
+  font-size: 30px;
+  text-decoration-line: none;
+  color: white;
+  display: block;
+}
+
+.nav-link:hover {
+  color: black;  
+}
+
+.section-header{
+  font-size: 30px;
+  font-family: georgia;
+  text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 720px){
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #navbar{
+    position: static;
+    display: block;
+    margin: 0px auto;
+    height: auto;
+    width: 100%;
+  }
+  
+  #main-doc{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+  }
+  
+}
+        </style>
+    </head>
+
+    <body>
+
+        <nav id="navbar">
+          <header id="navbarheader">Senses</header>
+          <div class="nav-option-box">
+          <a class="nav-link" href="#Seeing">Seeing</a>
+          </div>
+            <div class="nav-option-box">
+          <a class="nav-link" href="#Hearing">Hearing</a>
+          </div>
+            <div class="nav-option-box">
+          <a class="nav-link" href="#Smelling">Smelling</a>
+          </div>
+            <div class="nav-option-box">
+          <a class="nav-link" href="#Tasting">Tasting</a>
+          </div>
+            <div class="nav-option-box">
+          <a class="nav-link" href="#Touching">Touching</a>
+          </div>
+        </nav>
+        <main id="main-doc">
+          <section id="Seeing" class="main-section">
+            <header class="section-header">
+              <p>Seeing</p>
+            </header>
+            <div>
+              <p>The sense of sight is the primary sense used to observe the world around us. By intaking the light that reflects off of objects, an image of the world can be processed by the mind to gain an understanding of what is happening in one's surroundings.</p>
+            </div>
+          </section>
+          <section id="Hearing" class="main-section">
+            <header class="section-header">
+              <p>Hearing</p>
+            </header>
+                <div>
+                  <p>A high priority sense, hearing is based on a system of sensitive bones and organs in the head that respond to certain frequencies of sound.</p>
+                </div>
+          </section>
+          <section id="Smelling" class="main-section">
+            <header class="section-header">
+              <p>Smelling</p>
+            </header>
+                <div>
+                  <p>Based in the nose, the ability to smell is based on a large array of chemically sensitive receptors in the nasal passages that respond to certain elements and provide information to the brain for interpretation.</p>
+                </div>
+          </section>
+          <section id="Tasting" class="main-section">
+            <header class="section-header">
+              <p>Tasting</p>
+            </header>
+          </section>
+                <div>
+                  <p>Used for identifying the chemical composition of food items, the sense of taste allows humans to discern what is being consumed.</p>
+                </div>
+          <section id="Touching" class="main-section">
+            <header class="section-header">
+              <p>Touching</p>
+            </header>
+          </section>
+                <div>
+                  <p>Spread throughout the whole of the body, touch operates on receptors located all throughout the skin that respond to changes in temperature, position, charge, and pressure to give a sense of place in the world.</p>
+                </div>
+        </main>
+
+    </body>
+</html>

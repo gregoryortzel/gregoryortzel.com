@@ -1,0 +1,85 @@
+<html>
+<head>
+<style>
+
+body{
+  background-image: linear-gradient(0deg, #000000 0%, hsl(240, 100%, 20%) 10%, blue 30%, cyan 60%, white 90%);
+  background-repeat: repeat-x;
+  background-color: #000000;
+  height: 600px;
+  
+}
+
+main{
+  max-width: 500px;
+  padding: 15px;
+  margin: 0px auto;
+  border-radius: 2%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  opacity: 90%;
+  border-style: solid;
+  border-color: rgba(100,100,100,10%);
+  font-family: arial;
+}
+
+#main-wrapper{
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 10px;
+  background-image: linear-gradient(180deg, rgba(255,255,255,100) 40%, rgba(200,200,200,100) 70%, rgba(150,150,150,100) 90%, black 100%);
+}
+
+
+
+
+</style>
+
+
+</head>
+<body>
+    <div id="main-wrapper">
+    <main>
+    <h1 id="title">Most Anticipated New Technology in the 2020s</h1>
+    <p id="description">A new decade is beginning, what are you looking forward to?</p>
+    
+    <form id="survey-form">
+     <label for="name" id="name-label">Name: </label>
+      <input type="text" id="name" placeholder="Enter your full name" required><br/>
+     <label for="email" id="email-label">Email Address: </label>
+      <input type="email" id="email" placeholder="example@email.com" required><br/>
+     <label for="number" id="number-label">Age (Optional): </label>
+      <input type="number" id="number" min="0" max="150" placeholder="21"><br/>
+      <label for="dropdown">Tech Background</label>
+      <select id="dropdown">
+        <option>Onlooker</option>
+        <option>Enthusiast</option>
+        <option>Expert</option>
+      </select><br/>
+      Anticipation Level (5 is an agonizing wait, 1 is a slight interest):<br/> 
+      <input type="radio" name="anticipation-level" value="1">1
+      <input type="radio" name="anticipation-level" value="2">2
+      <input type="radio" name="anticipation-level" value="3">3
+      <input type="radio" name="anticipation-level" value="4">4
+      <input type="radio" name="anticipation-level" value="5">5
+      <br/>
+      <label for="purchase-intent">Will you be using and or own this technology?</label>
+      <input type="checkbox" name="intent" value="I will buy it.">Yes
+      <input type="checkbox" name="intent2" value="I will use it.">No<br/><br/>
+      <label for="comments">Additional Comments</label><br/>
+      <textarea name="comments"></textarea>
+      <br/>
+      <input type="submit" id="submit" value="Submit">
+      
+    </form>
+    </main>
+    </div>
+    
+
+
+</body>
+
+
+</html>
