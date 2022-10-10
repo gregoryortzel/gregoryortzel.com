@@ -1,134 +1,134 @@
 <html>
-    <head>
+  <head>
 
-        <style>
+    <style>
 
-a {
-  color: white;
-  text-decoration: none;
-}
+      a {
+        color: white;
+        text-decoration: none;
+      }
 
-body{
-    background-color: gray;
-    min-height: 640px;
-}
+      body{
+          background-color: gray;
+          min-height: 640px;
+      }
 
-#header{
-  margin: -100px -9px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  width: 100%;
-  height: 100px;
-  background-color: #000000;
-  position: fixed;
-  align-content: flex-end;
-  z-index: 100;
-}
+      #header{
+        margin: -100px -9px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        width: 100%;
+        height: 100px;
+        background-color: #000000;
+        position: fixed;
+        align-content: flex-end;
+        z-index: 100;
+      }
 
-#site-title{
-  color: #FFFFFF;
-  font-size: 50px;
-  text-align: center;
-  align-content: center;
-  font-weight: bold;
-  height: 70px;
-}
+      #site-title{
+        color: #FFFFFF;
+        font-size: 50px;
+        text-align: center;
+        align-content: center;
+        font-weight: bold;
+        height: 70px;
+      }
 
-main{
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 800px;
-  background-color: rgba(255,255,255, 90%);
-  padding: 40px 10px 10px 10px;
-  min-height: 200px;
+      main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 800px;
+        background-color: rgba(255,255,255, 90%);
+        padding: 40px 10px 10px 10px;
+        min-height: 200px;
 
-}
+      }
 
-nav{
-  margin-bottom: -20px;
-  display: flex;
-  flex-direction: row;
-  background-color: cyan;
-  width: 100%;
-  height: 35px;
+      nav{
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        background-color: cyan;
+        width: 100%;
+        height: 35px;
 
-}
+      }
 
-.title-link{
-  display: block;
-  vertical-align: middle;
-  height: 100%;
-}
+      .title-link{
+        display: block;
+        vertical-align: middle;
+        height: 100%;
+      }
 
-.nav-link{
-  display: block;
-}
+      .nav-link{
+        display: block;
+      }
 
-.nav-box {
-  width: 100%;
-  text-align: center;
-  padding: 5px;
-  border-style: solid;
-  border-width: 2px;
-  background-image: linear-gradient(to bottom, rgba(100,100,150,100%) 5%, rgba(10,10,70,100%) 55%, rgba(0,0,120,100%) 100%);
-  font-size: 20px;
-  text-decoration: none;
-}
+      .nav-box {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        border-style: solid;
+        border-width: 2px;
+        background-image: linear-gradient(to bottom, rgba(100,100,150,100%) 5%, rgba(10,10,70,100%) 55%, rgba(0,0,120,100%) 100%);
+        font-size: 20px;
+        text-decoration: none;
+      }
 
-.nav-box:hover{
-  background-image: linear-gradient(to bottom, rgba(255,255,255,100%) 10%, rgba(50,50,100,100%) 40%, rgba(100,100,200,100%) 100%);
-}
+      .nav-box:hover{
+        background-image: linear-gradient(to bottom, rgba(255,255,255,100%) 10%, rgba(50,50,100,100%) 40%, rgba(100,100,200,100%) 100%);
+      }
 
-.main-video{
-  background-color: black;
-  min-height: 480px;
-  
-}
+      .main-video{
+        background-color: black;
+        min-height: 480px;
+        
+      }
 
-@media only screen and (max-width: 768px){
-  main{
-    max-width: 500px;
-  }
-  
-}
+      @media only screen and (max-width: 768px){
+        main{
+          max-width: 500px;
+        }
+        
+      }
 
-        </style>
+    </style>
 
-    </head>
-    <body>
+  </head>
+  <body>
 
-        <header id="header">
-          <img id="header-img" src=""></img>
-        <div id="site-title">
-          <a href="#site-title" class="title-link">Virtual Reality Rigs</a></div>
-          <nav id="nav-bar">
-            <div class="nav-box">
-            <a class="nav-link" href="#header">Header</a>
-            </div>
-            <div class="nav-box">
-            <a class="nav-link" href="#video">Video</a>
-            </div>
-            <div class="nav-box">
-              <a class="nav-link" href="#email">Email</a>
-            </div>
-            </nav>
-        </header>
-        <main>
-          <video id="video" class="main-video">
-            <source src="https://www.youtube.com/embed/XNjrEITfwhY" type="video/mp4">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XNjrEITfwhY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Hello world</p>
-          </video>
-          <form id="form" action=" https://www.freecodecamp.com/email-submit" style="padding-top: 10px">
-            Would you like to learn more about this project? Enter you Email here: 
-            <input name="email" type="email" id="email" placeholder="emailaddress@email.com" required>
-            <input type="submit" id="submit" method="get">
-          </form>
-        </main>
+      <header id="header">
+        <img id="header-img" src=""></img>
+      <div id="site-title">
+        <a href="#site-title" class="title-link">Virtual Reality Rigs</a></div>
+        <nav id="nav-bar">
+          <div class="nav-box">
+          <a class="nav-link" href="#header">Header</a>
+          </div>
+          <div class="nav-box">
+          <a class="nav-link" href="#video">Video</a>
+          </div>
+          <div class="nav-box">
+            <a class="nav-link" href="#email">Email</a>
+          </div>
+          </nav>
+      </header>
+      <main>
+        <video id="video" class="main-video">
+          <source src="https://youtu.be/QUJiVj8emso" type="video/mp4">
+          <iframe width="560" height="315" src="https://youtu.be/QUJiVj8emso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Hello world</p>
+        </video>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit" style="padding-top: 10px">
+          Would you like to learn more about this project? Enter you Email here: 
+          <input name="email" type="email" id="email" placeholder="emailaddress@email.com" required>
+          <input type="submit" id="submit" method="get">
+        </form>
+      </main>
 
-    </body>
+  </body>
 </html>
