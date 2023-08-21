@@ -2,21 +2,51 @@
 <head>
 <link rel="stylesheet" type="text/css" href="resume-style.css">
 
+<script>
+    function ChangeActiveTopic(topic){
+
+        var mainTopic;
+
+        switch(topic){
+            case "programmer":
+                document.getElementById("programmer").style.display = "block";
+                document.getElementById("engineer").style.display = "none";
+                document.getElementById("video-editor").style.display = "none";
+                ;
+                break;
+            case "engineer":
+                document.getElementById("programmer").style.display = "none";
+                document.getElementById("engineer").style.display = "block";
+                document.getElementById("video-editor").style.display = "none";
+                ;
+                break;
+            case "video-editor":
+            document.getElementById("programmer").style.display = "none";
+                document.getElementById("engineer").style.display = "none";
+                document.getElementById("video-editor").style.display = "block";
+                ;
+                break;
+            default:
+                document.getElementById("programmer").disabled = "block";
+                document.getElementById("engineer").style.display = "none";
+                document.getElementById("video-editor").style.display = "none";
+                ;
+                break;
+                
+        }
+
+    }
+
+
+</script>
+
+
 </head>
 <body>
 
     <div id="home-bar">
         <a href = "index.html">Gregory Ortega Zelaya</a>
     </div>
-
-    <!-- Moved to actual content
-    <div id="nav" class="nav-bar">
-
-        
-        
-    </div>
--->
-
     <div id="main">
         <div id="summary">
             <div>
@@ -25,6 +55,15 @@
             <div style="padding: 10px">
                 <h2>Programmer, Technician, and Video Editor</h2>
                 <p>Curious by nature, cultivating a wide set of skills and seeking to create things that can meet the needs of my passions is the foundation of my learning philosophy. I hope to provide as much value with my skills to the people around me as possible.</p>
+                <h2>Topics</h2>
+                <button onclick="ChangeActiveTopic('programmer')">Programmer</button>
+                <button onclick="ChangeActiveTopic('engineer')">Engineer</button>
+                <button onclick="ChangeActiveTopic('video-editor')">Video Editor</button>
+
+
+
+                <div></div>
+
             </div>
         </div>
         <div id="programmer" class="main-section">
