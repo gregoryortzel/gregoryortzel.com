@@ -9,25 +9,25 @@
 
         switch(topic){
             case "programmer":
-                document.getElementById("programmer").style.display = "block";
+                document.getElementById("programmer").style.display = "flex";
                 document.getElementById("engineer").style.display = "none";
                 document.getElementById("video-editor").style.display = "none";
                 ;
                 break;
             case "engineer":
                 document.getElementById("programmer").style.display = "none";
-                document.getElementById("engineer").style.display = "block";
+                document.getElementById("engineer").style.display = "flex";
                 document.getElementById("video-editor").style.display = "none";
                 ;
                 break;
             case "video-editor":
             document.getElementById("programmer").style.display = "none";
                 document.getElementById("engineer").style.display = "none";
-                document.getElementById("video-editor").style.display = "block";
+                document.getElementById("video-editor").style.display = "flex";
                 ;
                 break;
             default:
-                document.getElementById("programmer").disabled = "block";
+                document.getElementById("programmer").disabled = "flex";
                 document.getElementById("engineer").style.display = "none";
                 document.getElementById("video-editor").style.display = "none";
                 ;
