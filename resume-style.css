@@ -1,5 +1,6 @@
 a{
     text-decoration:none;
+    color: #369eff;;
 }
 
 a:visited {
@@ -11,14 +12,15 @@ a:visited {
 body {    
     margin: 0 !important;
     padding: 0 !important;
+    background-color: rgb(34, 41, 41) ;
 }
 
 #main{
     margin: 0px auto;
     width: 960px;
-    background-color: rgb(194, 253, 255);
+    background-color: rgb(34, 41, 41);
     padding: 0px;
-    color: black;
+    color: rgb(206, 218, 223);
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,13 +34,16 @@ body {
     margin: 0px auto;
     text-decoration: none;
     padding: 5px;
-    background-color: #550000;
+    background-color:darkcyan;
     top: 0;
     width: 100%;
     height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
     color: #FFF;
+    font-weight:bold;
     position: fixed;
     font-size: 30px;
+    text-align: center;
 }
 
 #summary{
@@ -48,15 +53,15 @@ body {
 }
 
 #programmer{
-    background-color: #AAAAAA;
+    background-color: #aaaaaa15;
 }
 
 #engineer{
-    background-color: #8899FF;
+    background-color: #8899FF15;
 }
 
 #video-editor{
-    background-color: #BB88FF;
+    background-color: #BB88FF15;
 }
 
 .nav-bar{
@@ -81,5 +86,17 @@ body {
 .main-section{
     padding:20px;
     display: flex;
+    border-radius: 25px;
+}
+
+.main-button{
+    padding: 15px;
+    font-size: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:lightblue;
+    color:navy;
+    border-radius: 15px;
+    border-style:groove;
+    border-width: 5px;
 }
 
